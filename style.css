@@ -1,4 +1,55 @@
-. {
-    background-color: mediumpurple;
-    color: white;
+.content {
+
+    color: firebrick;
+    font-size: 30px;
+
+
+}
+
+.content ul {
+    text-align: center;
+    list-style-position: inside;
+    color: orangered;
+    border: black;
+    font-weight: bold;
+
+
+}
+
+#one {
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana,"DecoType Naskh",sans-serif;
+    color: mediumorchid;
+}
+
+#two {
+    font-size: 30px;
+    text-align: center;
+    color: deeppink;
+}
+
+#three {
+    font-size: 30px;
+    text-align: center;
+    color: deeppink;
+    font-weight: bold;
+}
+
+.text p{
+    color: black;
+}
+
+ul li{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px 0;
+    width: 400px;
+}
+
+.down-right::after {
+    content: "↘";
+    margin-left: 20px;
+    font-size: 30px;
+
 }
